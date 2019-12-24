@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link href="./style.css" rel="stylesheet"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h1>Форма доставки</h1>
+    <form method="POST" action="/book">
+      Телефон <input name="phone" required="required" type="text"/><br/>
+      ФИО <input name="fio" type="text"/><br/>
+      Заказ <input name="order" type="text"/>
+      Магзин <select class="shoplist"></select>
+      <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>
